@@ -1,0 +1,163 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.nav {
+  display: flex;
+  background-color: #1F2937;
+  align-items: center;
+}
+
+.logo {
+  color: #F9FAF8;
+  font-size: 24px;
+  flex: 1;
+  flex-wrap: wrap;
+}
+
+.nav-link{
+  display: flex;
+  color: #E5E7EB;
+  font-size: 16px;
+  text-decoration: none;
+  margin: 5px;
+}
+
+.hero{
+  display: flex;
+  background-color: #1F2937;
+  color: #F9FAF8; 
+  flex-direction: column;
+}
+
+.hero .hero-p {
+  display: flex;
+  color: #E5E7EB;
+  font-size: 18px;
+  flex-direction: row;
+} 
+
+.hero .hero-h1 {
+  width: 33%;
+  padding: 5px;
+}
+
+.hero .hero-p{
+  display: flex;
+  margin: 5px;
+}
+
+.hero .hero-button button{
+  flex: 1;
+  max-width: 60px;
+  background-color: #3882f6;
+  padding: 2px;
+  margin: 5px;
+  border: 1px solid black;
+  border-radius: 2px;
+}
+
+.hero .hero-img{
+  display: flex;
+  width: 200px;
+  margin: 5px;
+  align-self: flex-end;
+}
+
+
+.info-boxes {
+  display: flex;
+  justify-content: center;
+  }
+
+.info-boxes h2 {
+  color: #1F2937;
+  font-size: 36px;
+  font-weight: bolder;
+}
+
+.info-imgs{ 
+  display: flex;
+  justify-content: space-around;
+}
+
+.info-imgs img {
+  width: 50px;
+  height: 50px;
+  flex-wrap: wrap;
+  border: 2px solid #3882f6;
+  border-radius: 4px;
+}
+
+.info { 
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.quote {
+  display: flex;
+  background-color: #E5E7EB;
+  color: #1F2937;
+  font-style: italic;
+  margin: 40px 0px;
+  padding: 10px;
+  border-radius: 2px;
+  flex-direction: column;
+} 
+
+.quote .quote-credit {
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+.footer {
+  display: flex;
+  background-color: #1F2937;
+  color: #E5E7EB;
+  justify-content: center;
+  align-items: center;
+  bottom: 0;
+}
+
+.call-to-action {
+  display: flex;
+  flex-direction: column;
+  background-color: #3882f6;
+  margin: 40px;
+  padding: 10px;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.call-to-action button {
+  align-self: flex-end;
+  background-color: #3882f6;
+  max-width: 60px;
+  padding: 2px;
+  border: 1px solid white;
+  border-radius: 2px;
+}
+
+html, 
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+main{
+  height: 100%;
+  width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+  [class*="col-"]
+  width: 100%;
+  height: auto;
+}
